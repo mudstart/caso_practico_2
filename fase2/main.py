@@ -145,8 +145,8 @@ if __name__ == "__main__":
     print("=" * 55)
 
   #  demo_country()
-  #  demo_city()
+    demo_city()
   #  demo_film()
-    demo_customer()
+  #  demo_customer()
 
     print("\n\n Demo completado exitosamente.\n")
