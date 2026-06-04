@@ -20,7 +20,7 @@ caso_practico_2/
 │   ├── __init__.py
 │   ├── db_context.py                ← DbContext (Singleton, conexión MySQL)
 │   ├── entities.py                  ← Entity: Country, City, Film, Customer
-│   ├── models.py                    ← Model (List<Entity>) con acceso a BD
+│   ├── repositories.py              ← Repository (List<Entity>) con acceso a BD
 │   ├── controllers.py               ← Controller MVC por entidad
 │   └── main.py                      ← Demo completo del ORM
 │
@@ -70,7 +70,7 @@ Request
    ↓
 Controller  ← orquesta la lógica
    ↓
-Model (List<Entity>)  ← colección de objetos en memoria
+Repository (List<Entity>)  ← colección de objetos en memoria
    ↓
 Entity  ← espejo de la tabla en la BD
    ↓
